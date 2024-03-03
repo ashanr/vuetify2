@@ -1,0 +1,61 @@
+# Dependency directories
+node_modules/
+
+# Production build files
+dist/
+build/
+
+# Debug logs from npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# IDE-specific files and folders
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime*
+*.DS_Store
+
+# Temporary files
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vue CLI 3 & 4 generated directories
+public/
+src/assets/
+
+# Vue CLI 3 & 4 local env files
+.env.local
+.env.*.local
+
+# Vuepress build output
+.vuepress/dist
+
+# Testing
+/coverage/
+/test/unit/coverage/
+/test/e2e/reports/
+/test-out/
+
+# misc
+*.log
+*.sql
+*.sqlite
+
+package-lock.json
